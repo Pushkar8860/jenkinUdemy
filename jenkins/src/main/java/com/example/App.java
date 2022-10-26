@@ -7,8 +7,13 @@ package com.example;
  */
 public class App 
 {
-    public static void main( String[] args )
+
+    public void greet()
     {
-        System.out.println( "Hello World!" );
+        System.out.println("Hello fron greeting ");
+    }   
+ public static void main( String[] args )
+    {
+        System.out.println( "Hello World!  Main Method" );
     }
 }
